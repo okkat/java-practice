@@ -3,20 +3,21 @@ package com.tsc.oktest;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class Employee
+import static java.lang.Long.*;
+
+public final class ImmutableEmployee
 {
     private String name;
     private int age;
     private BigDecimal salary;
 
-    public Employee(String name, String age, String salary) {
+    public ImmutableEmployee(String name, String age, String salary) {
         this.name = name;
         this.age = Integer.parseInt(age);
-        BigDecimal salary_bd = new BigDecimal(salary);
-        BigDecimal scaled_salary = salary_bd.setScale(2, RoundingMode.HALF_UP);
-        this.salary = scaled_salary; //сделать через конструктор от строки new BigDecimal, проверять, что это число!
-        //String str = "123,456";
-        //BigDecimal b = new BigDecimal(str.replace(',', '.')).setScale(2, BigDecimal.ROUND_DOWN);
+        this.salary = BigDecimal.valueOf(parseLong(salary));
+        //BigDecimal salary_bd = new BigDecimal(salary);
+        //BigDecimal scaled_salary = salary_bd.setScale(2, RoundingMode.HALF_UP);
+        //this.salary = scaled_salary;
     }
 
     public String getName() {
@@ -43,6 +44,6 @@ public class Employee
     @Override
     public String toString()
     {
-        return "Employee [" + ", name=" + name + ", age=" + age + ", salary=" + salary + "]";
+        return "ImmutableEmployee [" + ", name=" + name + ", age=" + age + ", salary=" + salary + "]";
     }
 }

@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Department {
-    private String departmentName; //именования должны максимально отражать, что в них находится
-    private List<Employee> employeeList;
+    private String departmentName;
+    private List<ImmutableEmployee> immutableEmployeeList;
 
     public Department(String departmentName) {
         this.departmentName = departmentName;
-        this.employeeList = new ArrayList<>();
+        this.immutableEmployeeList = new ArrayList<>();
     }
 
     public String getDepartment() {
@@ -19,17 +19,13 @@ public class Department {
         this.departmentName = department;
     }
 
-    public List<Employee> getEmployeeList() {
-        return employeeList;
+    public List<ImmutableEmployee> getEmployeeList() {
+        return immutableEmployeeList;
     }
-
-    // get employers list!
-    //объяви как поле, потом добавь геттеры/сеттеры
-    //добавить связку депа + сотрудника
 
     @Override
     public String toString()
     {
-        return "Department [" + ", departmentName=" + departmentName + ", employeeList=" + employeeList + "]";
+        return "Department [" + ", departmentName=" + departmentName + ", immutableEmployeeList=" + immutableEmployeeList + "]";
     }
 }
