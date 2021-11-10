@@ -1,3 +1,5 @@
+
+
 package com.tsc.oktest;
 
 import java.util.ArrayList;
@@ -5,27 +7,27 @@ import java.util.List;
 
 public class Department {
     private String departmentName;
-    private List<ImmutableEmployee> immutableEmployeeList;
+    private List<Employee> employeeList;
 
     public Department(String departmentName) {
         this.departmentName = departmentName;
-        this.immutableEmployeeList = new ArrayList<>();
+        this.employeeList = new ArrayList<>();
     }
 
     public String getDepartment() {
         return departmentName;
     }
+
     public void setDepartment(String department) {
         this.departmentName = department;
     }
 
-    public List<ImmutableEmployee> getEmployeeList() {
-        return immutableEmployeeList;
+    public List<Employee> getEmployeeList() {
+        return employeeList;
     }
 
     @Override
-    public String toString()
-    {
-        return "Department [" + ", departmentName=" + departmentName + ", immutableEmployeeList=" + immutableEmployeeList + "]";
+    public String toString() {
+        return "Department [" + ", departmentName=" + departmentName + ", immutableEmployeeList=" + employeeList + "]";
     }
 }

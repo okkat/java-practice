@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd8f3c3a-2ef0-4ac5-aaba-07a81913a991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/DataValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployersList" beforeDir="false" afterPath="$PROJECT_DIR$/EmployersList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/DataValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/DataValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/ImmutableEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/ImmutableEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/ReadingFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsc/oktest/ReadingFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tsc/oktest/ReadingFromFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsc/oktest/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsc/oktest/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsc/oktest/DataValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsc/oktest/DataValidation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tsc/oktest/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsc/oktest/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsc/oktest/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsc/oktest/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tsc/oktest/ImmutableEmployee.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tsc/oktest/ReadingFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsc/oktest/ReadingFromFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tsc/oktest/ReadingFromFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tsc/oktest/ReadingFromFileTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
